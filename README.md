@@ -21,8 +21,8 @@
 ## 3. แสดงขั้นตอนการทำ project
 **ขั้นตอนที่ 1: การเตรียมการเชื่อมต่อ**
 เชื่อมต่อโมดูล RDM6300 กับ ESP32
-* RDM6300 TX → ESP32 RX (GPIO 16)
-* RDM6300 RX → ESP32 TX (GPIO 2)
+* RDM6300 TX → ESP32 RX (GPIO 5)
+* RDM6300 RX → ESP32 TX (GPIO 4)
 * เชื่อมต่อพอร์ต GND และ VCC ของโมดูล RDM6300 กับ ESP32
 
 ![1](https://github.com/user-attachments/assets/7e8f6093-ec9e-4e65-8c01-1d6f78fdd3b2)
