@@ -31,7 +31,7 @@
 * RDM6300 RX → ESP32 TX (GPIO 4)
 * เชื่อมต่อพอร์ต GND และ VCC ของโมดูล RDM6300 กับ ESP32
 
-![1](https://github.com/user-attachments/assets/7e8f6093-ec9e-4e65-8c01-1d6f78fdd3b2)
+![4](https://github.com/user-attachments/assets/30431a16-7c02-499f-a6ec-6419ce3ee0fd)
 
 **ขั้นตอนที่ 2: การติดตั้งไลบรารี**
 ไลบรารีที่ใช้สำหรับการทำงานกับ RDM6300:
