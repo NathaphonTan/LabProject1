@@ -21,9 +21,11 @@
 ## 3. แสดงขั้นตอนการทำ project
 **ขั้นตอนที่ 1: การเตรียมการเชื่อมต่อ**
 เชื่อมต่อโมดูล RDM6300 กับ ESP32
-* RDM6300 TX → ESP32 RX (GPIO 17)
-* RDM6300 RX → ESP32 TX (GPIO 16)
+* RDM6300 TX → ESP32 RX (GPIO 16)
+* RDM6300 RX → ESP32 TX (GPIO 2)
 * เชื่อมต่อพอร์ต GND และ VCC ของโมดูล RDM6300 กับ ESP32
+
+![3](https://github.com/user-attachments/assets/9ff6faea-eece-4340-aadd-7fcc1db02da1)
 
 **ขั้นตอนที่ 2: การติดตั้งไลบรารี**
 ไลบรารีที่ใช้สำหรับการทำงานกับ RDM6300:
@@ -34,8 +36,8 @@
   ```cpp
 #include <SoftwareSerial.h>
 
-#define RX_PIN 17
-#define TX_PIN 16
+#define RX_PIN 16
+#define TX_PIN 2
 #define RELAY_PIN 5
 
 SoftwareSerial rdmSerial(RX_PIN, TX_PIN);
